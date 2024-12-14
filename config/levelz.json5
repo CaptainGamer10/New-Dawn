@@ -6,15 +6,15 @@
 	// In combination with overallMaxLevel, only when all skills maxed
 	"allowHigherSkillLevel": false,
 	// Applies if bonus chest world setting is enabled
-	"startPoints": 5,
+	"startPoints": 6,
 	// Enables starter points for SERVER only
-	"enableStartPoints": false,
+	"enableStartPoints": true,
 	"pointsPerLevel": 1,
 	// If true will reset stats on death
 	"hardMode": false,
 	"disableMobFarms": true,
 	// Amount of allowed mob kills in a chunk
-	"mobKillCount": 5,
+	"mobKillCount": 10,
 	// Strange potion resets all stats instead of one
 	"opStrangePotion": false,
 	// restrict hand usage when item not unlocked, client only
@@ -51,7 +51,7 @@
 	"staminaBonus": 0.019999999552965164,
 	"staminaHealthBonus": 0.05000000074505806,
 	// Food is more nutritious at max lvl
-	"staminaFoodBonus": 0.30000001192092896,
+	"staminaFoodBonus": 0.40000001192092896,
 	// Price reduction in %
 	"tradeBonus": 1.0,
 	"tradeXPBonus": 0.5,
@@ -63,7 +63,7 @@
 	// Chance of no xp usage on anvil at max lvl
 	"smithingAnvilChance": 0.10000000149011612,
 	// Min level to get chance of more crops drop
-	"farmingBase": 10,
+	"farmingBase": 5,
 	// Chance of more crops drop
 	"farmingChanceBonus": 0.009999999776482582,
 	// Breeding twin chance at max lvl
@@ -87,7 +87,7 @@
 	// Caution! Level up use independent levelz xp system
 	"useIndependentExp": true,
 	// XP equation: lvl^exponent * multiplicator + base
-	"xpCostMultiplicator": 0.10000000149011612,
+	"xpCostMultiplicator": 0.08000000149011612,
 	"xpExponent": 2,
 	"xpBaseCost": 50,
 	// 0 = no experience cap
@@ -130,8 +130,8 @@
 	"lockedBlockInfoPosY": 0,
 	"miningProgression": true,
 	"itemProgression": true,
-	"blockProgression": true,
-	"entityProgression": true,
+	"blockProgression": false,
+	"entityProgression": false,
 	"brewingProgression": true,
 	"smithingProgression": true
 }
