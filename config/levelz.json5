@@ -88,7 +88,7 @@
 	"useIndependentExp": true,
 	// XP equation: lvl^exponent * multiplicator + base
 	"xpCostMultiplicator": 0.08000000149011612,
-	"xpExponent": 2,
+	"xpExponent": 10,
 	"xpBaseCost": 50,
 	// 0 = no experience cap
 	"xpMaxCost": 0,
